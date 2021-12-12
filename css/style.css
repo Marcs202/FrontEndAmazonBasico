@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/**barra de navegacion*/
+.navegacion{
+    background-color: #131921;
+    height: 77px;
+    
+}
+.btnNavBar{
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+.btnNavBar:hover{
+    background-color: grey;
+    color: white;
+    border: 6px;
+    border-color: white;
+}
+.busqueda{
+    background-color:#febd69;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    width: 75px;
+    height: 39px;
+}
+.input-group{
+    position:fixed;
+    width:400px;
+    top:20px;
+    right: 150px;
+}
+.shopping{
+    position: fixed;
+    right: 25px;
+    background-color: #131921;
+    border: 0px;
+}
+.carrito{
+    height: 60px;
+    width: 60px;
+    color: white;
+}
+/**Carrusel*/
+.carrusel{
+    display:absolute;
+    top: 77px;
+}
+.banners{
+    height: 900px;
+}
+/**banners principales*/
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    padding: 40px 0;
+    z-index:2;
+    display: flex;
+    padding: 40px 0;
+    gap: 20px;
+    position: absolute;
+    left: 17%;
+    top: 30%;
+}
+.tituloBanner{
+    font-weight: bold;
+}
+.titulo{
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+.contenedor-conciertos{
+    width: 70%;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* 
+.card{
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    width: calc(33.33% - 20px);
+
+}
+
+.card .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} */
+
+.banner{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9edea;
+    display: flex;
+    flex-direction: column;
+    width: 386px;
+    font-size: 24px;
+
+}
+.bannerFilas{
+    border-radius: 10px;
+    width: 386px;
+    background-color: #f9edea;
+    font-size: 24px;
+}
+
+.banner ul{
+    list-style: none;
+}
+
+.banner ul li{
+    margin: 15px;
+    
+}
+.noColor{
+    color: black;
+}
+.amarillo{
+    color: black;
+}
+.amarillo:hover{
+    border: 2px;
+    font-weight: bold;
+    color: #febd69;
+    text-decoration:none;
+}
+
+/* .banner .boton{
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+} */
+
+/**footer**/
+footer{
+   
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(52,71,84,1) 52%,
+     rgba(45,76,97,1) 100%);
+}
+
+@media (max-width: 800px) {
+    .imgBanner{
+        width:150px;
+  }
+}
+/**--------------Pagina de compras--------------------*/
+.contenedorAyuda{
+    height: 960px;
+    background-color: #f1f1f1;
+} 
+.ayuda{
+    height: 650px;
+    border-radius: 10px;
+    z-index:2;
+    position: absolute;
+    left:25%;
+    top:175px;
+    background-color: #febd69;
+    font-size: 36px;
+    margin-left: 10px;
+}
+.ayuda h1{
+    font-weight: bolder;
+    text-align: center;    
+}
