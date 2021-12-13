@@ -62,7 +62,7 @@
     z-index:2;
     display: flex;
     padding: 40px 0;
-    gap: 20px;
+    gap: 60px;
     position: absolute;
     left: 17%;
     top: 30%;
@@ -169,17 +169,90 @@ footer{
         width:150px;
   }
 }
+
+/**-------------Pagina de ofertas-------------*/
+.circulo {
+    width: 116px;
+    height: 116px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #6c8dc4;    
+}
+.circulo:hover{
+    background: #f9edea;
+}
+.Menu-botones{
+    width: 100%;
+    position: absolute;
+    top: 77px ;
+    background: rgb(37,58,75);
+    background: linear-gradient(90deg, rgba(37,58,75,1) 0%, rgba(37,58,75,1) 50%, rgba(37,58,75,1) 100%);
+}
+.Menu-botones ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+.Menu-botones li {
+    float: left;
+}
+.Menu-botones li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;     
+}
+.contenedorOfertas{
+    background-color: #f1f1f1;
+    top: 140px;
+    height: 1200px;
+}
+.ofertas{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.row-superior{
+    margin-top: 40px;
+}
+
+
 /**--------------Pagina de compras--------------------*/
+#imgBannerCompras{
+    position:absolute;
+    top: 75px;
+    width: 100%;
+}
+.contenedorComprar{
+    background-color: #f1f1f1;
+    top: 140px;
+    height: 1400px;
+}
+.compras{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/**---------Pagina de ayuda****/
 .contenedorAyuda{
     height: 960px;
     background-color: #f1f1f1;
+    
 } 
 .ayuda{
     height: 650px;
     border-radius: 10px;
     z-index:2;
     position: absolute;
-    left:25%;
+    left:20%;
     top:175px;
     background-color: #febd69;
     font-size: 36px;
